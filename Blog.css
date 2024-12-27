@@ -1,0 +1,591 @@
+@import url("https://fonts.cdnfonts.com/css/satoshi");
+/* font-family: "Satoshi", sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Satoshi", sans-serif;
+}
+.navbar {
+  width: 1440px;
+  margin: 0 auto;
+  height: 83px;
+  /* border: 2px solid blue; */
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 19px 80px;
+  margin-bottom: 80px;
+}
+.navbar .logo {
+  /* font-family: "Satoshi", sans-serif; */
+  font-size: 20px;
+  font-weight: 900;
+  color: #18181b;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #70707b;
+  font-size: 16px;
+  /* font-family: "Satoshi", sans-serif; */
+  font-weight: 400;
+}
+.navbar ul li a.active {
+  color: #18181b;
+}
+.navbar ul li a:hover {
+  color: aqua;
+}
+.navbar button {
+  /* font-family: "Satoshi", sans-serif; */
+  padding: 10px 18px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  background-color: #18181b;
+  color: #fcfcfc;
+}
+/* Navber end */
+/* Main Start */
+/* Section 1 Start */
+#number1section {
+  width: 1280px;
+  height: 712px;
+  margin: 0 auto;
+  /* margin: 80px; */
+  /* border: 2px solid chartreuse; */
+  margin-bottom: 80px;
+}
+.title-search {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 80px;
+}
+.titles {
+  height: 124px;
+  /* border: 2px solid darkblue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.lft-title {
+  width: 545px;
+  height: 124px;
+  /* border: 2px solid goldenrod; */
+}
+.lft-title h3 {
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 62.4px;
+  color: #18181b;
+}
+.rgt-title {
+  width: 520px;
+  height: 86px;
+  /* border: 2px solid darkmagenta; */
+}
+.rgt-title p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #70707b;
+}
+.Sicon-input {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 56px;
+  border: 1px solid #e4e4e7;
+  border-radius: 12px;
+  padding: 16px 12px;
+}
+.Sicon-input input {
+  height: 30px;
+  width: 1200px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* ---------------------------------- */
+.lft-rgt-content {
+  height: 428px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  /* border: 2px solid red; */
+}
+
+.leftsidecontent {
+  width: 877px;
+  height: 428px;
+  /* border: 2px solid deeppink; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#imge {
+  height: 428px;
+  width: 400px;
+}
+#imge img {
+  height: 428px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+/* ----------------------- */
+#rightsidecontent {
+  width: 453px;
+  height: 345px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  /* border: 2px solid sienna; */
+}
+.lftsidergtcontent {
+  display: flex;
+  gap: 16px;
+}
+
+.leftsidecontent p,
+i,
+span {
+  color: #70707b;
+  font-size: 16px;
+  font-weight: 500;
+}
+#howtochooseh3 h3 {
+  color: #18181b;
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 46px;
+}
+.addingtostyleh4 h4 {
+  color: #70707b;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27.9px;
+}
+/* ------------------------ */
+.rightcontentsidebar {
+  width: 363px;
+  height: 428px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  /* border: 2px solid darkorchid; */
+}
+.upperone,
+.middleone,
+.downone {
+  width: 363px;
+  height: 132px;
+  /* border: 2px solid dodgerblue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.desktop-leaf-shelfpic {
+  width: 132px;
+  height: 132px;
+  /* border: 1px solid blue; */
+}
+.desktop-leaf-shelfpic img {
+  height: 132px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.pic-rightside {
+  width: 215px;
+  height: 119px;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.date-time h5,
+span {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18.6px;
+  color: #70707b;
+}
+.mdtext h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #18181b;
+}
+/* ---------------------------------------- */
+/* Section 1 End */
+/* ---------------------------------------- */
+/* Section 2 Start */
+#section2sontent {
+  height: 2257px;
+  width: 1280px;
+  margin: 0 auto;
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+.uppertexts {
+  height: 134px;
+  /* width: 1280px; */
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  /* border: 2px solid yellow; */
+}
+.htxt3 {
+  width: 463px;
+  height: 62px;
+  /* border: 2px solid darkmagenta; */
+}
+.htxt3 h3 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 62.4px;
+  color: #18181b;
+}
+#paratxt {
+  height: 56px;
+  width: 699px;
+}
+#paratxt p {
+  color: #70707b;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27.9px;
+}
+/* ------------ */
+.cardsdetails {
+  height: 1995px;
+  /* width: 1280px; */
+  gap: 24px;
+  /* border: 2px solid green; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.cardpics {
+  width: 410px;
+  height: 649px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  /* border: 2px solid dodgerblue; */
+}
+.iamgecard {
+  width: 410px;
+  height: 424px;
+  /* border: 1px solid salmon; */
+}
+.iamgecard img {
+  width: 100%;
+  height: 424px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.imgundertxt {
+  width: 410px;
+  height: 191px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  /* border: 1px solid fuchsia; */
+}
+.date-timetxt {
+  height: 25px;
+  display: flex;
+  gap: 16px;
+}
+.date-timetxt h5,
+span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24.8px;
+  color: #70707b;
+}
+.clocktxt {
+  display: flex;
+  gap: 4px;
+}
+
+.textheading p {
+  height: 58px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.8px;
+  color: #18181b;
+}
+.textpara p {
+  height: 80px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #70707b;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn button {
+  width: 113px;
+  height: 48px;
+  border-radius: 12px;
+  /* padding: 12px 18px; */
+  background-color: #18181b;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.btn button:hover {
+  background-color: #38383b;
+}
+/* Section 2 end */
+/* ----------------------------------------- */
+/* final section box */
+.letushelp {
+  width: 1408px;
+  height: 498px;
+  /* border: 2px solid deeppink; */
+  margin: 0 auto;
+  margin-bottom: 40px;
+  border-radius: 36px;
+  padding: 80px 51px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url(./Assets/letushelpbgimage.png);
+  background-position: center;
+  background-size: cover;
+}
+.contactintro {
+  width: 792px;
+  height: 240px;
+  /* border: 2px solid blue; */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.contactheadline {
+  height: 154px;
+  width: 792px;
+}
+.contactheadline h2 {
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 76.8px;
+  text-align: center;
+}
+.contectdescription {
+  width: 792px;
+  height: 62px;
+}
+.contectdescription p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 31px;
+  color: #ffffff;
+  text-align: center;
+}
+.subscriftionbox {
+  width: 504px;
+  height: 58px;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 8px;
+}
+
+.email-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #70707b;
+}
+
+.subbtn {
+  background-color: #18181b;
+  width: 128px;
+  height: 42px;
+  border-radius: 12px;
+  padding: 10px 16px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.subbtn:hover {
+  background-color: #333;
+}
+
+/* Main End */
+/* footer start */
+footer {
+  height: 510px;
+  width: 1440ox;
+  background-color: #18181b;
+  padding: 80px 56px 40px 56px;
+}
+.information {
+  height: 230px;
+  width: 1328px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.leftinfo {
+  height: 167px;
+  width: 620px;
+}
+.h2text {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  color: #fcfcfc;
+  height: 76px;
+  width: 545px;
+  margin-bottom: 32px;
+}
+.address {
+  height: 59px;
+  width: 620px;
+  display: flex;
+  gap: 24px;
+  /* justify-content: space-between; */
+}
+.enquery h6 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21.7px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.enquery p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.8px;
+  color: rgba(252, 252, 252, 1);
+}
+.rightinfo {
+  height: 230px;
+  width: 326px;
+
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 24px;
+}
+.navigation p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24.8px;
+  color: rgba(255, 255, 255, 0.6);
+}
+#navlistname {
+  height: 107px;
+  width: 232px;
+  display: flex;
+  gap: 24px;
+}
+.divitem {
+  height: 107px;
+  width: 104px;
+}
+.divitem p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24.8px;
+  padding-bottom: 16px;
+  color: rgba(252, 252, 252, 1);
+}
+.followUs {
+  width: 70px;
+  height: 230px;
+  gap: 16px;
+}
+.followUs p {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+  padding-bottom: 16px;
+}
+ul li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(252, 252, 252, 1);
+  padding-bottom: 16px;
+}
+.lastpart {
+  height: 80px;
+  width: 1328px;
+  margin: 0 auto;
+  margin-top: 80px;
+  /* border: 2px solid red; */
+  border-top: 1px solid rgba(112, 112, 123, 1);
+}
+.coyright {
+  height: 64px;
+  width: 1328px;
+  margin: 0 auto;
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logodesgin {
+  font-size: 20px;
+  font-weight: 900;
+  color: rgba(252, 252, 252, 1);
+}
+.coyright p {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.6);
+}
+.coyright h5 {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(252, 252, 252, 1);
+}
+.backtotop {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 8px;
+}
+.backtotop i {
+  color: rgba(252, 252, 252, 1);
+}
+/* footer end */
